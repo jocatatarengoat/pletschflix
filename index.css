@@ -1,0 +1,50 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 10px; 
+    text-align: center;
+}
+body {
+    background-image: url("https://imagez.tmz.com/image/9a/1by1/2017/08/22/9a0e0a1cc42b5c75bcbbec6fca462c4c_xl.jpg");
+    background-size: 100% 100%;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: white;
+    
+}
+body::before{
+    content: "";
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.9);
+    z-index: -1;
+}
+#titulo{
+    text-align: center;
+}
+
+#Preços{
+    text-align: center;
+}
+table{
+    margin: auto;
+    width: 1000px;
+    font-size: x-large;
+}
+
+th,td {
+    padding: 15px;
+}
+
+thead{
+    font-size: 200;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#paragrafo{
+    text-align: center;
+}
+
+ul, ol{
+    list-style-position: inside;
+}
+
